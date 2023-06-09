@@ -1,0 +1,83 @@
+Table {
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+tr {
+    padding: 10px;
+}
+
+th {
+    height: 35px;
+    border: 1px solid
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.tdDatos,
+.thDatos {
+    width: 125px;
+}
+
+.tdBotones,
+.thBotones {
+    width: 200px;
+}
+
+.elimSoc {
+    background-color: blue;
+    width: 40%;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10PX;
+    background-color: red;
+}
+
+/* Table.module.css
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tdDatos {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.tdBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elimSoc {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.elimSoc:hover {
+    background-color: darkred;
+}
+
+h4 {
+    margin-top: 20px;
+} */

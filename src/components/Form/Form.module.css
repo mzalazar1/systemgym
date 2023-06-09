@@ -1,0 +1,47 @@
+/* .claseError {
+    color: red;
+}
+
+.frmSoc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+
+/* Form.module.css */
+
+.frmSoc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frmSoc h2 {
+    margin-bottom: 20px;
+}
+
+.frmSoc form {
+    width: 300px;
+}
+
+.frmSoc label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.frmSoc input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.claseError {
+    color: red;
+    margin-top: 5px;
+}
+
+.socABM {
+    margin-top: 20px;
+}

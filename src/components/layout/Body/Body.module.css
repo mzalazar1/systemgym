@@ -1,0 +1,62 @@
+/* h1 {
+    color: darkgray;
+}
+
+h2 {
+    font-size: larger;
+}
+
+h3 {
+    color: lightgrey;
+}
+
+.texto {
+    text-align: center;
+    max-width: 75%;
+}
+
+.cuerpo {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ca3131;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Table.module.css */
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tdDatos {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.tdBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elimSoc {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.elimSoc:hover {
+    background-color: darkred;
+}
+
+h4 {
+    margin-top: 20px;
+}

@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Home from "./Screens/Home/index";
+import Socios from "./Screens/Socios/Index2";
+// import Productos from './Screens/Productos';
+import FormAdd from './Screens/FormAdd';
+import FormEdit from './Screens/FormEdit';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/socios" element={<Socios />} />
+      <Route path="/addsocio" element={<FormAdd />} />
+      <Route path='/edit/:id' element={<FormEdit />} />
+    </Routes>
   );
 }
-
 export default App;
